@@ -1,0 +1,51 @@
+.new-invoice-screen {
+  padding-top: 32px;
+}
+
+.invoice-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.invoice-form__section {
+  margin-top: 8px;
+}
+
+.invoice-form__section-title {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.invoice-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--color-primary-light);
+  border-radius: var(--radius-md);
+  border: 1px solid #B2DFDB;
+}
+
+.invoice-total__label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.invoice-total__value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.invoice-footer {
+  margin-top: auto;
+  padding-top: 24px;
+}

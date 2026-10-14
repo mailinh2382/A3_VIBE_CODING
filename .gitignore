@@ -1,0 +1,45 @@
+# =============================================================
+#  InvoEasy .gitignore
+#  Covers: Python backend, React (Vite) frontend, macOS, editors
+# =============================================================
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment variables (MUST NEVER BE COMMITTED) ─────────
+.env
+.env.*
+!.env.example
+
+# ── Node / React ────────────────────────────────────────────
+node_modules/
+dist/
+*.tsbuildinfo
+
+# ── Vercel ──────────────────────────────────────────────────
+.vercel/
+
+# ── macOS ───────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Editor / IDE ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
