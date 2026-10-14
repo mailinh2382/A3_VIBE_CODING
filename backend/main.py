@@ -32,6 +32,7 @@ app = FastAPI(
     description="Backend API for Vietnamese household e-invoice management",
     version="1.0.0",
     lifespan=lifespan,
+    root_path="/api",
 )
 
 # Allow the Vite dev server and production domain
